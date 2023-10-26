@@ -31,6 +31,7 @@ no shutdown
 
 ## Finalmente
 int f0/0
+ip nat inside
 no shutdown
 ```
 
