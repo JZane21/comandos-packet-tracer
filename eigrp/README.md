@@ -70,3 +70,8 @@ Si queremos redistribuir ip's estaticas por todo el eigrp poner esto en el route
 Vivian2CORE(config)#router eigrp 1
 Vivian2CORE(config-router)#red static
 ```
+Si nos conectamos a usuarios finales por medio de alguna interfaz, no es necesario mandarle ciertos paquetes:
+```
+Vivian0(config)#router eigrp 1
+Vivian0(config-router)#passive-interface fa 0/0
+```
