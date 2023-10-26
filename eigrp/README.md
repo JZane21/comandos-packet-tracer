@@ -65,7 +65,7 @@ network 172.16.10.0 0.0.0.255
 ```
 
 #### NOTAS  
-Si quieremos redistribuir ip's estaticas por todo el eigrp:
+Si queremos redistribuir ip's estaticas por todo el eigrp poner esto en el router que tiene guardada la ip estatica:
 ```pk
 Vivian2CORE(config)#router eigrp 1
 Vivian2CORE(config-router)#red static
