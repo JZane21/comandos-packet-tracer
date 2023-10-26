@@ -63,3 +63,10 @@ router eigrp 1
 network 20.20.20.0 0.0.0.255
 network 172.16.10.0 0.0.0.255
 ```
+
+#### NOTAS  
+Si quieremos redistribuir ip's estaticas por todo el eigrp:
+```pk
+Vivian2CORE(config)#router eigrp 1
+Vivian2CORE(config-router)#red static
+```
